@@ -1,0 +1,68 @@
+/**
+ * Sales Pipeline Theme Tokens
+ * Executive-enterprise aesthetic with professional color palette
+ */
+
+:root {
+  /* Primary Brand Colors */
+  --color-primary-50: #f0f9ff;
+  --color-primary-100: #e0f2fe;
+  --color-primary-500: #0ea5e9;
+  --color-primary-600: #0284c7;
+  --color-primary-700: #0369a1;
+
+  /* Pipeline Stage Colors */
+  --color-stage-lead: #f59e0b;
+  --color-stage-lead-bg: #fef3c7;
+  --color-stage-opportunity: #3b82f6;
+  --color-stage-opportunity-bg: #dbeafe;
+  --color-stage-won: #10b981;
+  --color-stage-won-bg: #d1fae5;
+  --color-stage-lost: #ef4444;
+  --color-stage-lost-bg: #fee2e2;
+
+  /* Conversion Probability Colors */
+  --color-conv-90: #10b981;
+  --color-conv-75: #3b82f6;
+  --color-conv-50: #f59e0b;
+  --color-conv-25: #f97316;
+  --color-conv-10: #ef4444;
+  --color-conv-0: #6b7280;
+
+  /* Background & Surfaces */
+  --color-bg-dashboard: #f8fafc;
+  --color-bg-surface: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-bg-column: #f1f5f9;
+
+  /* Text Hierarchy */
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #64748b;
+  --color-text-muted: #94a3b8;
+
+  /* Borders */
+  --color-border-light: #e2e8f0;
+  --color-border-medium: #cbd5e1;
+
+  /* Spacing Scale */
+  --space-card-padding: 16px;
+  --space-column-gap: 16px;
+  --space-card-gap: 12px;
+
+  /* Typography */
+  --font-family-heading: 'Inter', -apple-system, system-ui, sans-serif;
+  --font-family-body: -apple-system, system-ui, 'Segoe UI', sans-serif;
+}
+
+/* Dark mode adjustments (if needed) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg-dashboard: #0f172a;
+    --color-bg-surface: #1e293b;
+    --color-bg-card: #1e293b;
+    --color-bg-column: #334155;
+    --color-text-primary: #f1f5f9;
+    --color-text-secondary: #cbd5e1;
+    --color-border-light: #334155;
+  }
+}
